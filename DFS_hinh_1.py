@@ -12,6 +12,7 @@ graph = {
 '4' : [],
 '5' : [],
 }
+
 visited = set() # Tập hợp các nút đã duyệt (Set to keep track of visited nodes).
 def dfs(visited, graph, node):
     if node not in visited:
